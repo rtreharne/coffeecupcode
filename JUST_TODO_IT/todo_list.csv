@@ -1,6 +1,7 @@
 task,created_at,completed_at,deleted
 Clean bathroom,2023-11-05 07:53:58.538511,,False
-Mow lawn,2023-11-05 09:35:55.272887,,False
-Write book chapter,2023-11-05 09:35:59.606212,,False
+Mow lawn,2023-11-05 09:35:55.272887,2023-11-05 10:16:52.008304,False
+Write book chapter,2023-11-05 09:35:59.606212,2023-11-05 10:12:10.198740,False
 Cook Breakfast,2023-11-05 09:36:07.896658,,False
 new item,2023-11-05 09:36:29.881675,2023-11-05 09:37:00.428509,False
+Response to AR #work #email,2023-11-05 10:22:18.723584,,False
