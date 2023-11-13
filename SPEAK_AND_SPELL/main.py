@@ -3,6 +3,7 @@ import pyttsx3
 import pandas as pd
 from datetime import datetime
 import time
+import sys
 
 def speak(word):
     engine = pyttsx3.init()
@@ -10,17 +11,27 @@ def speak(word):
     engine.say(word)
     engine.runAndWait()
 
-def random_word():
+def random_word(fname):
     # Get a random word from the common words file
-    with open('common_words.txt', 'r') as f:
+    with open(fname, 'r') as f:
         words = f.readlines()
         word = random.choice(words).strip()
         return word
 
-def test(name, num=10):
+def test(name, fname, num=10, max_word_length=10):
     start = time.time()
     score = 0
-    test_words = [random_word() for i in range(num)]
+
+    # Get a list of random words. Words cannot repeat.
+    test_words = []
+    while len(test_words) < num:
+        word = random_word(fname)
+        if word not in test_words:
+            if len(word) <= max_word_length:
+                test_words.append(word)
+
+
+    #test_words = [random_word() for i in range(num)]
     user_spelling = []
     feedback = []
     print("Press enter to repeat the word")
@@ -63,6 +74,7 @@ def test(name, num=10):
                             'correct': score,
                             'incorrect': num-score,
                             'duration': duration,
+                            'score': score,
                             'points': int(points),
                             'timestamp': datetime.now()}, index=[0])
     
@@ -76,7 +88,7 @@ def read_test_results():
     scoreboard = pd.read_csv('test_results.csv')
     return scoreboard
     
-def run():
+def run(fname='common_words.txt', max_word_length=10):
     # Give user the option to start a test
     print('Welcome to Speak and Spell!')
 
@@ -97,7 +109,7 @@ def run():
 
         choice = input('>> ')
         if choice == '1':
-            test(name, num=10)
+            test(name, fname, num=10, max_word_length=max_word_length)
 
         elif choice == '2':
             break
@@ -105,4 +117,13 @@ def run():
             print('Invalid choice. Please try again.')
 
 if __name__ == "__main__":
-    run()
+    # get word file from command line
+    if len(sys.argv) > 1:
+        fname = sys.argv[1]
+        try:
+            max_word_length = int(sys.argv[2])
+        except:
+            max_word_length = 10
+        run(fname=fname, max_word_length=max_word_length)
+    else:
+        run(fname='common_words.txt')

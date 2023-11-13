@@ -1,7 +1,56 @@
 task,created_at,completed_at,deleted
-Clean bathroom,2023-11-05 07:53:58.538511,,False
+Clean bathroom,2023-11-05 07:53:58.538511,2023-11-06 08:55:28.743432,False
 Mow lawn,2023-11-05 09:35:55.272887,2023-11-05 10:16:52.008304,False
 Write book chapter,2023-11-05 09:35:59.606212,2023-11-05 10:12:10.198740,False
-Cook Breakfast,2023-11-05 09:36:07.896658,,False
+Cook Breakfast,2023-11-05 09:36:07.896658,2023-11-06 08:55:31.782502,False
 new item,2023-11-05 09:36:29.881675,2023-11-05 09:37:00.428509,False
-Response to AR #work #email,2023-11-05 10:22:18.723584,,False
+Response to AR #work #email,2023-11-05 10:22:18.723584,2023-11-06 16:56:06.639336,False
+Fix attendance endpoint #fizzynewt,2023-11-06 08:55:20.736681,2023-11-06 11:33:38.183801,False
+Interests DB. Update. #work #faculty,2023-11-06 08:56:54.436996,2023-11-07 11:47:44.783027,False
+Interests DB. Update Tine. #work #faculty,2023-11-06 08:57:10.925140,2023-11-07 11:47:46.345362,False
+Pay AWS and cancel account #home #money,2023-11-06 08:57:34.704695,2023-11-06 14:51:38.465610,False
+Mohith. Contact Andy and get green light for project #work #life702,2023-11-06 08:57:55.804321,2023-11-07 09:31:10.468827,False
+Turn off heroku servers #money #fizzynewt,2023-11-06 08:59:04.863002,2023-11-06 14:55:52.066002,False
+Response to Waleed #canvaslens #work,2023-11-06 14:19:01.903704,2023-11-06 14:32:34.590003,False
+Expense claim #work #money,2023-11-06 14:33:29.425644,2023-11-06 15:40:00.559294,False
+Get interest free credit card #money #life,2023-11-06 15:46:35.748116,2023-11-06 16:04:29.118089,False
+Order external hard drive #purchase personal,2023-11-06 16:13:50.525850,2023-11-06 16:23:41.127525,False
+Backup laptop #work,2023-11-06 16:23:52.951002,2023-11-07 12:58:42.838949,False
+"Vets projects. Change keywords to ""at least 1"" #canvaslens #projects #work #svs",2023-11-06 16:34:41.461088,2023-11-06 16:56:09.493406,False
+Prepare thermal physics past paper questions #physics #tutoring,2023-11-06 16:43:58.090323,2023-11-07 06:03:33.418029,False
+,2023-11-06 16:58:07.471324,2023-11-06 16:58:13.174390,False
+A1 moderation #life733 #work,2023-11-07 09:20:24.290083,2023-11-07 12:58:49.074729,False
+Check student portfolio submissions #life702 #work,2023-11-07 09:31:42.412716,2023-11-08 06:57:15.362347,False
+Print Lucie's papers #life702 #work,2023-11-07 09:35:56.582764,2023-11-09 05:49:52.194602,False
+Read 2022_Leandro #projects #lucie,2023-11-07 09:53:33.663799,,False
+Read 2022_Bonnin #projects #lucie,2023-11-07 09:53:44.931143,,False
+CanvasLens SSIS flag for student import from .csv #canvaslens #eee,2023-11-07 10:21:40.396337,,False
+Georgie Hoare. Offer coding support #life113 #coding,2023-11-07 10:32:15.126221,,False
+LIFE113.1 Marking/moderation #life113 #work,2023-11-07 10:32:44.347897,,False
+Letter to Hibernia #fizzynewt,2023-11-07 11:00:26.139725,,False
+Print #life702 and #life748 handbooks #work,2023-11-07 12:11:40.875489,2023-11-08 06:57:00.472602,False
+Organise 1-to-1 meetings with third years #work,2023-11-07 12:13:00.439362,,False
+Email Lu about Mohith's project. #life748,2023-11-07 12:21:37.598648,2023-11-07 12:24:13.328438,False
+,2023-11-07 12:58:58.885745,2023-11-08 06:57:04.322168,False
+Sam Healy. Read portfolio document for links and respond via teams. #projects #samh,2023-11-08 06:58:30.013421,,False
+Finish week 12 resource. #bios103 #qs #work,2023-11-08 07:00:12.970092,2023-11-09 05:50:12.310132,False
+"Count ELPs, not extensions and ELPs #work #canvaslens",2023-11-08 13:04:28.187135,2023-11-09 10:28:35.814098,False
+Run periodic task to get submissions if assignment is active #canvaslens #work,2023-11-08 13:14:28.233833,2023-11-09 06:52:37.541081,False
+Add timestamp to record on ELP/extension #canvaslens #work,2023-11-08 13:24:58.334499,,False
+"Status field for ELP/extension records. ""Approved/Hold/Rejected"" #canvaslens #work",2023-11-08 13:33:02.255318,,False
+Reject ELP/extension record /w message to student. #canvaslens 'work,2023-11-08 13:33:25.767772,,False
+Restart celery queue #canvaslens #work,2023-11-08 13:34:09.462916,2023-11-09 06:52:19.409338,False
+Setup A2 submission link #life733 #work,2023-11-08 21:20:49.823732,2023-11-09 13:36:11.837349,False
+Response to RA re Jack's line management #work #jack,2023-11-09 10:47:28.226801,,False
+Respond to Clayton with possible datetime for coding #work,2023-11-09 13:37:47.789574,,False
+Respond to Liam #RSS #HiPy,2023-11-09 16:14:47.978110,,False
+223QS Poster marks investigation #life223 #qs,2023-11-09 16:15:11.952314,2023-11-10 12:50:07.378145,False
+#canvaslens 201511975 731.2 sub. Can't see in elp (can see 631.2),2023-11-10 06:21:40.024105,2023-11-10 13:24:31.844054,False
+Can you get AI score for a submission from lens? #canvaslens #work,2023-11-10 10:15:33.127599,2023-11-10 13:45:02.347983,False
+#life229 feedback/score issue. Need to untangle. #work,2023-11-10 12:47:44.692490,,False
+,2023-11-10 12:50:20.904055,,False
+Prepare for #life113 probability lecture,2023-11-13 08:27:54.932239,,False
+Prepare #life113 Attendance Audit,2023-11-13 08:28:03.597746,,False
+Remove canvas course #Monica,2023-11-13 08:29:14.899732,,False
+Shenbo letter of recommendation #work,2023-11-13 09:12:39.803579,,False
+#projects #svs update project summary with project types #work,2023-11-13 11:43:50.605559,,False

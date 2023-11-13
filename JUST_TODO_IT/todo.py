@@ -1,7 +1,6 @@
 import pandas as pd
 from os import path
-from datetime import datetime
-
+from datetime import datetime, date
 def read_todo():
     """
     Reads the todo.csv file and returns a dataframe
@@ -14,7 +13,7 @@ def read_todo():
     else:
         print("File does not exist")
 
-def display_todo(action="LIST"):
+def display_todo(action="LIST", filter=None):
     """
     Displays the todo list
     """
@@ -26,6 +25,14 @@ def display_todo(action="LIST"):
             df.sort_values(by="completed_at", ascending=False, inplace=True)
             for index, row in df.iterrows():
                 print(index+1, row["task"])
+        elif action == "FILTER":
+            df.dropna(subset=["task"], inplace=True)
+            df = df[df["task"].str.contains(filter)]
+            df.sort_values(by="created_at", ascending=False, inplace=True)
+            for index, row in df.iterrows():
+                if filter in row["task"]:
+                    
+                    print(index+1, row["task"], row["completed_at"])
         else:
             
             for index, row in df.iterrows():
@@ -35,12 +42,12 @@ def display_todo(action="LIST"):
         print("\n")
                 
 
-def run_todo(action="LIST"):
+def run_todo(action="LIST", filter=None):
     # clear console
     print("\n" * 100)
     
     # display list
-    display_todo(action)
+    display_todo(action, filter)
 
 
     user_input = input("TODO: ")
@@ -76,6 +83,8 @@ def update_todo(task):
             df.at[task_id-1, "completed_at"] = datetime.now()
     elif "COMPLETE" in task:
         run_todo(action="COMPLETED")
+    elif "FILTER" in task:
+        run_todo(action="FILTER", filter=task.split(" ")[1])
     else:
         # Create new row from task input
         new_row = pd.DataFrame({
