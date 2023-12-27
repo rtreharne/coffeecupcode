@@ -108,7 +108,10 @@ def play_game():
 
     for _ in range(10):
         num1, num2 = generate_question()
-        answer = int(input(f"What is {num1} * {num2}? "))
+        try:
+            answer = int(input(f"What is {num1} * {num2}? "))
+        except ValueError:
+            answer = 0
         if answer == num1 * num2:
             correct_count += 1
         else:
