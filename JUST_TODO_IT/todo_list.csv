@@ -22,35 +22,127 @@ Prepare thermal physics past paper questions #physics #tutoring,2023-11-06 16:43
 A1 moderation #life733 #work,2023-11-07 09:20:24.290083,2023-11-07 12:58:49.074729,False
 Check student portfolio submissions #life702 #work,2023-11-07 09:31:42.412716,2023-11-08 06:57:15.362347,False
 Print Lucie's papers #life702 #work,2023-11-07 09:35:56.582764,2023-11-09 05:49:52.194602,False
-Read 2022_Leandro #projects #lucie,2023-11-07 09:53:33.663799,,False
-Read 2022_Bonnin #projects #lucie,2023-11-07 09:53:44.931143,,False
-CanvasLens SSIS flag for student import from .csv #canvaslens #eee,2023-11-07 10:21:40.396337,,False
-Georgie Hoare. Offer coding support #life113 #coding,2023-11-07 10:32:15.126221,,False
-LIFE113.1 Marking/moderation #life113 #work,2023-11-07 10:32:44.347897,,False
-Letter to Hibernia #fizzynewt,2023-11-07 11:00:26.139725,,False
+Read 2022_Leandro #projects #lucie,2023-11-07 09:53:33.663799,2023-11-14 08:42:33.290194,False
+Read 2022_Bonnin #projects #lucie,2023-11-07 09:53:44.931143,2023-11-14 08:42:37.938236,False
+CanvasLens SSIS flag for student import from .csv #canvaslens #eee,2023-11-07 10:21:40.396337,2023-11-15 10:18:21.812731,False
+Georgie Hoare. Offer coding support #life113 #coding,2023-11-07 10:32:15.126221,2023-11-14 10:19:33.717616,False
+LIFE113.1 Marking/moderation #life113 #work,2023-11-07 10:32:44.347897,2023-11-14 07:20:03.584980,False
+Letter to Hibernia #fizzynewt,2023-11-07 11:00:26.139725,2023-11-23 12:53:57.101677,False
 Print #life702 and #life748 handbooks #work,2023-11-07 12:11:40.875489,2023-11-08 06:57:00.472602,False
-Organise 1-to-1 meetings with third years #work,2023-11-07 12:13:00.439362,,False
+Organise 1-to-1 meetings with third years #work,2023-11-07 12:13:00.439362,2023-11-14 07:20:13.487563,False
 Email Lu about Mohith's project. #life748,2023-11-07 12:21:37.598648,2023-11-07 12:24:13.328438,False
 ,2023-11-07 12:58:58.885745,2023-11-08 06:57:04.322168,False
-Sam Healy. Read portfolio document for links and respond via teams. #projects #samh,2023-11-08 06:58:30.013421,,False
+Sam Healy. Read portfolio document for links and respond via teams. #projects #samh,2023-11-08 06:58:30.013421,2023-11-14 10:25:23.211792,False
 Finish week 12 resource. #bios103 #qs #work,2023-11-08 07:00:12.970092,2023-11-09 05:50:12.310132,False
 "Count ELPs, not extensions and ELPs #work #canvaslens",2023-11-08 13:04:28.187135,2023-11-09 10:28:35.814098,False
 Run periodic task to get submissions if assignment is active #canvaslens #work,2023-11-08 13:14:28.233833,2023-11-09 06:52:37.541081,False
-Add timestamp to record on ELP/extension #canvaslens #work,2023-11-08 13:24:58.334499,,False
+Add timestamp to record on ELP/extension #canvaslens #work,2023-11-08 13:24:58.334499,2023-11-14 07:20:24.823822,False
 "Status field for ELP/extension records. ""Approved/Hold/Rejected"" #canvaslens #work",2023-11-08 13:33:02.255318,,False
 Reject ELP/extension record /w message to student. #canvaslens 'work,2023-11-08 13:33:25.767772,,False
 Restart celery queue #canvaslens #work,2023-11-08 13:34:09.462916,2023-11-09 06:52:19.409338,False
 Setup A2 submission link #life733 #work,2023-11-08 21:20:49.823732,2023-11-09 13:36:11.837349,False
-Response to RA re Jack's line management #work #jack,2023-11-09 10:47:28.226801,,False
-Respond to Clayton with possible datetime for coding #work,2023-11-09 13:37:47.789574,,False
-Respond to Liam #RSS #HiPy,2023-11-09 16:14:47.978110,,False
+Response to RA re Jack's line management #work #jack,2023-11-09 10:47:28.226801,2023-11-14 10:16:49.047226,False
+Respond to Clayton with possible datetime for coding #work,2023-11-09 13:37:47.789574,2023-11-14 10:26:49.726737,False
+Respond to Liam #RSS #HiPy,2023-11-09 16:14:47.978110,2023-11-15 05:56:39.896833,False
 223QS Poster marks investigation #life223 #qs,2023-11-09 16:15:11.952314,2023-11-10 12:50:07.378145,False
 #canvaslens 201511975 731.2 sub. Can't see in elp (can see 631.2),2023-11-10 06:21:40.024105,2023-11-10 13:24:31.844054,False
 Can you get AI score for a submission from lens? #canvaslens #work,2023-11-10 10:15:33.127599,2023-11-10 13:45:02.347983,False
-#life229 feedback/score issue. Need to untangle. #work,2023-11-10 12:47:44.692490,,False
-,2023-11-10 12:50:20.904055,,False
-Prepare for #life113 probability lecture,2023-11-13 08:27:54.932239,,False
-Prepare #life113 Attendance Audit,2023-11-13 08:28:03.597746,,False
-Remove canvas course #Monica,2023-11-13 08:29:14.899732,,False
-Shenbo letter of recommendation #work,2023-11-13 09:12:39.803579,,False
-#projects #svs update project summary with project types #work,2023-11-13 11:43:50.605559,,False
+#life229 feedback/score issue. Need to untangle. #work,2023-11-10 12:47:44.692490,2023-11-14 10:34:39.999353,False
+,2023-11-10 12:50:20.904055,2023-11-14 08:41:20.452840,False
+Prepare for #life113 probability lecture,2023-11-13 08:27:54.932239,2023-11-14 08:42:05.402894,False
+Prepare #life113 Attendance Audit,2023-11-13 08:28:03.597746,2023-11-14 08:42:13.347932,False
+Remove canvas course #Monica,2023-11-13 08:29:14.899732,2023-11-14 08:42:20.440445,False
+Shenbo letter of recommendation #work,2023-11-13 09:12:39.803579,2023-11-14 08:40:57.737304,False
+#projects #svs update project summary with project types #work,2023-11-13 11:43:50.605559,2023-11-14 08:41:27.050877,False
+#projects Respond to Jaewon regarding coding resources.,2023-11-14 05:46:04.894240,2023-11-15 09:46:08.031623,False
+#life113 upload lecture to canvas #work,2023-11-14 07:21:26.471868,2023-11-14 07:32:02.533643,False
+#peerobservation #work Complete front page and return to Neil.,2023-11-14 08:40:48.548025,2023-11-14 10:08:37.542665,False
+#projects #svs update project summary with project types #work,2023-11-14 08:41:50.715758,2023-11-23 12:53:34.603359,False
+#mohith email bad news regarding project and solution,2023-11-14 10:08:52.117245,2023-11-15 13:56:15.249380,False
+#mohith #projects #email Andy Jones and ask for help,2023-11-14 10:09:18.844281,2023-11-15 13:26:22.327641,False
+#healey Try and run examples from PyMolSAR,2023-11-14 10:25:12.277955,2023-11-22 19:54:53.153664,False
+Advise Phoebe Lally on EC application #work #life113,2023-11-14 13:01:29.285566,2023-11-15 13:29:12.303693,False
+#life229 Send report on assignment 2 to Terry.,2023-11-15 05:55:14.979842,2023-11-15 13:57:33.986206,False
+Respond to Alan Radford via Teams re #projects #svs,2023-11-15 05:56:26.156412,2023-11-15 13:29:25.582081,False
+,2023-11-15 05:57:27.221795,2023-11-15 05:57:31.442308,False
+#clayton reschedule coding sesh #life113 #work,2023-11-15 10:02:46.189536,2023-11-21 10:13:24.598431,False
+#canvaslens #bug Assignment object has no attribute 'has_overrides',2023-11-15 12:50:55.841538,2023-11-15 13:57:23.368719,False
+#mohith check literature review #projects #work,2023-11-15 13:40:11.651492,2023-11-21 10:13:29.295393,False
+done 68,2023-11-15 13:57:19.106398,2023-11-15 13:57:26.113877,False
+#projects #svs prepare student form for alan,2023-11-15 14:03:00.507728,2023-11-22 15:53:46.285242,False
+#HiPy #CoffeeCupCoding Create event.,2023-11-15 20:46:00.809953,2023-11-23 13:52:00.543868,False
+#HiPy #CoffeeCupCoding send to Hayley for newsletter,2023-11-15 20:46:22.214891,2023-11-23 13:52:06.545874,False
+#life229 fix 229.0 assessment #work,2023-11-15 20:46:40.514439,2023-11-15 20:46:46.823979,False
+#jack #pdr prepare feedback over 12 months + objectives/plans #work,2023-11-16 10:43:42.589582,2023-11-28 10:38:27.204564,False
+#peerobservation sign form and return to Neil #work,2023-11-16 12:28:43.695123,2023-11-21 10:43:42.282084,False
+#lucie #projects spin up colab for chloropleth,2023-11-16 12:29:05.122861,2023-11-20 09:09:00.109184,False
+#canvaslens not updating titles bug fix,2023-11-16 16:18:34.866331,2023-11-17 10:01:56.455087,False
+#projects detach ug/masters allocations,2023-11-17 11:04:42.468433,2023-11-23 13:52:14.703252,False
+Respond to Nashwa #CEDS #work,2023-11-17 11:06:41.931188,2023-11-20 07:17:23.355587,False
+#life113 #work prepare coding lecture,2023-11-20 07:17:34.252741,2023-11-21 07:21:53.142284,False
+#life130 #tutorial #work organise essay writing tutorial,2023-11-20 07:21:12.861769,2023-11-20 10:37:44.594844,False
+#bios103qs #work Create zebrafish dataset(s) for ANOVA,2023-11-20 07:22:20.162940,,False
+#email #RSS Response to Liam Brierley,2023-11-20 08:45:42.169674,2023-12-05 14:51:16.279037,False
+#life transfer £32 to SB.,2023-11-20 08:46:14.861464,2023-11-20 09:08:28.588296,False
+#expenses response to Keri,2023-11-20 09:04:30.198011,2023-11-21 10:24:14.193281,False
+#order #projects Camera. Green screen. Raspberry Pis,2023-11-20 09:05:03.236965,2023-11-21 10:15:23.011789,False
+#life buy tickets to Ivy play,2023-11-20 09:07:24.285106,2023-11-28 10:02:36.406951,False
+#life buy tickets to Ivy play,2023-11-20 09:08:08.180653,2023-11-20 09:08:21.188138,False
+#student response to Sam Brocklehurst #work,2023-11-20 09:11:56.732677,2023-11-28 10:02:42.148860,False
+#life113 respond to madeline watson and update grade,2023-11-20 10:41:01.572651,2023-11-20 11:31:48.969147,False
+#CEDS respond to Nashwa,2023-11-20 10:41:58.178222,2023-12-05 14:44:01.723588,False
+#CEDS #TEL start work on Assisted Marking project.,2023-11-20 10:42:21.507444,2023-12-05 14:44:07.588877,False
+#work organise 1:1 with third years week 10,2023-11-20 10:43:18.259722,2023-11-28 10:02:48.501187,False
+#life113 post lecture email responses,2023-11-20 14:14:09.916581,2023-11-21 10:15:13.787803,False
+#life Monica website,2023-11-21 07:21:46.802206,2023-12-21 13:39:47.378413,False
+,2023-11-21 10:14:23.219591,2023-11-21 10:14:27.427684,False
+#life223qs consolidate buddy check grades #work,2023-11-21 10:14:59.891355,2023-11-21 10:15:02.370659,False
+#work #expenses Keri-Ann Fix,2023-11-22 09:51:45.516029,2023-12-05 14:42:48.748098,False
+#home #amazon order wireless mouse/keyboard,2023-11-22 09:53:58.079475,2023-11-28 10:02:55.031940,False
+#reference #shenbo Imperial,2023-11-22 19:34:06.548311,2023-11-28 10:02:59.957123,False
+#reference #shenbo Manchester,2023-11-22 19:34:12.707644,2023-11-28 10:03:04.109192,False
+#reference #shenbo Singapore,2023-11-22 19:34:21.578528,2023-11-28 10:03:07.988985,False
+#home Monica printing,2023-11-22 19:54:14.666032,2023-11-23 14:15:20.060848,False
+#canvaslens #admin #work Report overrides.,2023-11-23 08:31:40.771304,,False
+#canvas work turn on automatic late penalties for all courses,2023-11-23 08:32:13.221305,2023-11-23 14:15:15.636748,False
+#canvaslens create late policy functionality,2023-11-23 08:47:46.493538,,False
+#application L&T Staff award.,2023-11-23 12:41:12.058799,2023-12-11 11:24:50.639242,False
+#application LTSE,2023-11-23 12:41:21.101481,2023-12-21 13:39:54.007044,False
+#canvaslens periodic tasks get/sync submissions fix,2023-11-23 13:57:37.228512,,False
+#canvaslens prevent online tests appearing in elp system,2023-11-23 13:58:39.793916,,False
+#canvaslens dissociate ELP from non-approved extensions,2023-11-23 14:14:03.425410,,False
+#canvaslens wording changes to templates and some system areas,2023-11-23 14:14:21.659364,,False
+#canvaslens ELP approval. Approve immediately.,2023-11-23 14:14:49.654347,,False
+#canvaslens auto approve if 5 min late.,2023-11-23 14:15:06.507371,,False
+#fizzynewt video + market analysis,2023-11-28 09:54:09.297294,,False
+#life113 message to Sneh for wone-to-one,2023-11-28 10:34:53.044835,2023-11-28 10:34:55.789444,False
+#scholarship deploying via docker video walkthrough,2023-11-29 08:57:55.114087,2023-12-05 14:51:40.347962,False
+#work #shenbo Reference UCL,2023-11-29 10:37:01.025607,2023-12-05 15:16:59.602327,False
+#projects keyword analysis,2023-11-30 13:48:38.120498,2023-12-05 15:17:12.233197,False
+#projects theme analysis,2023-12-01 07:43:12.742189,2023-12-05 15:17:15.257972,False
+#reference Jiaqi Gu. Edinburgh,2023-12-01 14:15:13.090660,2023-12-05 15:11:35.991264,False
+#projects return to assistive feedback,2023-12-05 14:44:18.493333,,False
+#canvaslens #bugfix Lens Issue- Override Assessments,2023-12-05 16:20:18.656294,,False
+#reference Jiaqi Edinburgh (again),2023-12-06 06:44:06.663766,,False
+#reference Jiaqi UCL,2023-12-06 06:44:14.882881,,False
+#life701 oral presentation marking #work,2023-12-11 08:44:41.221745,2023-12-21 13:40:09.050634,False
+#coffeecupcode Cancel event.,2023-12-11 08:48:54.087172,2023-12-21 13:40:12.442453,False
+#life113 prepare for lecture,2023-12-11 09:13:20.342200,2023-12-11 11:01:09.045358,False
+#projects #natasha feedback on plan,2023-12-11 09:13:47.404366,2023-12-21 13:40:42.370395,False
+#projects jaewon feedback on plan,2023-12-11 09:13:57.641743,2023-12-21 13:40:47.098386,False
+#life130 #lara essay feedback,2023-12-11 09:19:46.619154,,False
+#life130 #isobella essay feedback,2023-12-11 09:20:50.813148,,False
+#life733 moderation paperwork,2023-12-11 09:51:10.020104,,False
+# get ubuntu pc hooked up to wifi,2023-12-11 10:20:20.472373,2023-12-11 11:01:02.042705,False
+#canvas docker get running on Ubuntu PC,2023-12-11 11:25:44.489244,2023-12-21 13:40:20.217477,False
+#projects second assessor allocation,2023-12-19 06:19:44.190563,2023-12-21 13:39:37.209970,False
+#fizzynewt confirmation statements,2023-12-19 06:23:56.008096,2023-12-21 13:40:34.042390,False
+#fizzynewt find an accountant,2023-12-19 06:30:50.710686,2023-12-21 13:40:28.703321,False
+#fizzynewt ICO!,2023-12-20 06:33:06.325728,2023-12-21 13:39:32.661434,False
+#canvaslens respond to Monika,2023-12-20 20:11:25.906626,2023-12-21 13:46:42.137785,False
+#life13 Hussain. Response,2023-12-21 09:01:38.920093,2023-12-21 13:54:16.171159,False
+#projects #life363 add student canvas_id to assessor spreadsheet.,2023-12-21 13:52:59.671520,2023-12-21 14:30:37.177080,False
+#projects #life363. Check assessor course.,2023-12-21 13:53:10.823397,2023-12-21 13:57:30.603875,False
+#projects #life363 populate assessor course with students and staff,2023-12-21 13:57:53.085148,2023-12-21 14:30:30.943554,False
+#life113. breast cancer walkthrough.,2023-12-22 09:25:31.055172,,False
+#canvaslens anonymising/deanonymising assignments bug fix,2023-12-22 09:41:18.486066,,False

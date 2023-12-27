@@ -18,7 +18,10 @@ def random_word(fname):
         word = random.choice(words).strip()
         return word
 
-def test(name, fname, num=10, max_word_length=10):
+def test(name, fname, num=10):
+    # clear terminal
+    print('\n'*100)
+
     start = time.time()
     score = 0
 
@@ -27,8 +30,8 @@ def test(name, fname, num=10, max_word_length=10):
     while len(test_words) < num:
         word = random_word(fname)
         if word not in test_words:
-            if len(word) <= max_word_length:
-                test_words.append(word)
+
+            test_words.append(word)
 
 
     #test_words = [random_word() for i in range(num)]
@@ -54,10 +57,18 @@ def test(name, fname, num=10, max_word_length=10):
             feedback.append('Incorrect!')
     end = time.time()
     duration = end - start
-    print(f'You scored {score}/{num}')
-    print('Here are the correct spellings:')
-    for i in range(num):
-        print(f'{test_words[i]}: {feedback[i]}')
+    # clear terminal
+    print('\n'*100)
+    print('\n--- Test Results ---')
+    print(f'You scored {score}/{num}\n')
+
+    print('Here are your corrections:')
+    for word, spelled in zip(test_words, user_spelling):
+        # print feedback, correct and user spelling in a single line!
+        if word != spelled:
+            print(f'CORRECT: {word}, INCORRECT: {spelled}')
+
+    print('\n')
     
     # Save the score to the test_results.csv file
     test_results = read_test_results()
@@ -69,6 +80,8 @@ def test(name, fname, num=10, max_word_length=10):
         points = 100*score*factor
     else:
         points = 100*score
+
+    print("You have earned {} points!\n".format(int(points)))
 
     new_row = pd.DataFrame({'name': name, 
                             'correct': score,
@@ -88,7 +101,7 @@ def read_test_results():
     scoreboard = pd.read_csv('test_results.csv')
     return scoreboard
     
-def run(fname='common_words.txt', max_word_length=10):
+def run(fname, max_word_length=10):
     # Give user the option to start a test
     print('Welcome to Speak and Spell!')
 
@@ -109,7 +122,7 @@ def run(fname='common_words.txt', max_word_length=10):
 
         choice = input('>> ')
         if choice == '1':
-            test(name, fname, num=10, max_word_length=max_word_length)
+            test(name, fname, num=10)
 
         elif choice == '2':
             break
@@ -120,10 +133,7 @@ if __name__ == "__main__":
     # get word file from command line
     if len(sys.argv) > 1:
         fname = sys.argv[1]
-        try:
-            max_word_length = int(sys.argv[2])
-        except:
-            max_word_length = 10
-        run(fname=fname, max_word_length=max_word_length)
+        run(fname)
     else:
-        run(fname='common_words.txt')
+        fname = 'common_words.txt'
+        run(fname)
